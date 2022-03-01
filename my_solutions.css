@@ -84,9 +84,9 @@
 
 
 .ex-11-icon:hover {
-    animation: spinALittleBit 1s linear infinite;
+    animation: rapidspinreverse 1s linear infinite;
 }
-@keyframes spinALittleBit{
+@keyframes rapidspinreverse{
     0%{
         transform: rotate(0);
     }
@@ -100,9 +100,9 @@
 
 
 .ex-12-button:hover .ex-12-top-white {
-    animation: moveTopWhite 2s linear;
+    animation: topwhite 2s linear;
 }
-@keyframes moveTopWhite{
+@keyframes topwhite{
     0%{
         left: 10%;
     }
@@ -114,9 +114,9 @@
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: moveBottomWhite 2s linear;
+    animation: botwhite 2s linear;
 }
-@keyframes moveBottomWhite {
+@keyframes botwhite {
     0% {
         right: 20%;
     }
@@ -131,9 +131,9 @@
 
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 2s linear;
+    animation: totaltopwhite 2s linear;
 }
-@keyframes moveTopWhiteCompletely {
+@keyframes totaltopwhite {
     0% {
         left: 10%;
         top: -10px;
@@ -160,9 +160,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: totalbotwhite 2s linear;
 }
-@keyframes moveBottomWhiteCompletely {
+@keyframes totalbotwhite {
     0% {
         bottom: -10px;
         right: 20%;
